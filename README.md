@@ -20,8 +20,11 @@ USER <ton nom (ne sera pas affiche)>
 Exemple :
 
 nc localhost 6969
+
 PASS aaa
+
 NICK Michel
+
 USER Michel :Jacky
 
 Liste des commandes classiques irssi :
