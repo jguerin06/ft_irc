@@ -12,9 +12,9 @@ Deux facons :
 Exemple :
 	/connect localhost 6969 aaa
 
-- nc localhost <port> puis tu ecris ces lignes (tu dois appuyer sur entree entre chaque ligne)
-PASS <mdp>
-NICK <ton pseudo (sera affiche sur irc)>
+- nc localhost <port> puis tu ecris ces lignes (tu dois appuyer sur entree entre chaque ligne)\
+PASS <mdp>\
+NICK <ton pseudo (sera affiche sur irc)>\
 USER <ton nom (ne sera pas affiche)>
 
 Exemple :
