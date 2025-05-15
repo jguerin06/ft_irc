@@ -22,26 +22,26 @@ Exemple :
 nc localhost 6969
 PASS aaa \
 NICK Michel \
-USER Michel :Jacky \
+USER Michel :Jacky
 
-Liste des commandes classiques irssi :
+Liste des commandes classiques irssi :\
 /join
 
-Liste des commandes classiques nc :
-JOIN #nomDuChannel
+Liste des commandes classiques nc :\
+JOIN #nomDuChannel\
 PRIVMSG #nomDuChannel :<msg>
 
 Liste des commandes operateur (elles sont dans le sujet aussi)
 
 
-Si tu passes par le client irssi :
-/kick <pseudo>
-/invite <pseudo>
-/topic <nomDuTopic>
+Si tu passes par le client irssi :\
+/kick <pseudo>\
+/invite <pseudo>\
+/topic <nomDuTopic>\
 /mode <voir sujet>
 
-Si tu passes par nc :
-KICK #nomDuChannel <pseudo> : <raison>
-INVITE <pseudo> #nomDuChannel
-TOPIC #nomDuChannel : <nouveauTopic>
+Si tu passes par nc :\
+KICK #nomDuChannel <pseudo> : <raison>\
+INVITE <pseudo> #nomDuChannel\
+TOPIC #nomDuChannel : <nouveauTopic>\
 MODE <voir sujet>
